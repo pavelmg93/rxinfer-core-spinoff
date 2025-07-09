@@ -1,2 +1,33 @@
 style = "blue"
-short_to_long_function_def = true
+
+# An array of paths to files, directories, or glob patterns that should be formatted.
+# If you have a single path, you can also pass it as a string.
+# If this option is not specified, JuliaFormatter will format all Julia files in the current directory and its subdirectories.
+# paths = ["src", "test"]
+
+# An array of paths to files, directories, or glob patterns that should not be formatted.
+# This can be useful for excluding generated files.
+# exclude = ["src/generated"]
+
+# The maximum line length.
+# Lines will be wrapped if they are longer than this.
+# line_ending = "auto"
+
+# The number of spaces to use for indentation.
+# indent = 4
+
+# Whether to use tabs for indentation.
+# If true, `indent` will be ignored.
+# use_tabs = false
+
+# Whether to format the file in place.
+# If false, the formatted code will be printed to stdout.
+# overwrite = true
+
+# Whether to print the files that are being formatted.
+# verbose = false
+
+# Whether to check if the files are formatted correctly.
+# If true, JuliaFormatter will exit with a non-zero status code if any files are not formatted correctly.
+# This is useful for CI.
+# check = false
